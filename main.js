@@ -790,10 +790,10 @@ window.requestAnimationFrame(function () {
         $(".paused").removeClass("hidden");
         $(".drag-container").draggable('disable')
     });
-    $(".social-score").click(function () {
-        var href = String.format("https://twitter.com/intent/tweet?hashtags=1212game&ref_src=twsrc%5Etfw&text=I%20just%20scored%20{0}%20points%20in%20a%20game%20called%201212!%20Can%20you%20do%20better%3F&tw_p=tweetbutton&url=prilik.ca/1212/&via=danielprilik", score)
-        window.open(href);
-    })
+//    $(".social-score").click(function () {
+//        var href = String.format("https://twitter.com/intent/tweet?hashtags=1212game&ref_src=twsrc%5Etfw&text=I%20just%20scored%20{0}%20points%20in%20a%20game%20called%201212!%20Can%20you%20do%20better%3F&tw_p=tweetbutton&url=prilik.ca/1212/&via=danielprilik", score)
+//        window.open(href);
+//    })
     $(".reset-topscore").click(function () {
         resetTopScore+=1;
         console.log(resetTopScore)

@@ -76,7 +76,7 @@ a {
 }
 
 .score:after {
-    content: "Score";
+    content: "Punkte";
 }
 
 .top:after {
